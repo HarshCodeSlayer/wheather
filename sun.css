@@ -1,0 +1,60 @@
+body{
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200422/pngtree-cloud-creative-texture-horror-weather-background-image_334315.jpg');
+}
+.srh{
+	display: flex;
+	margin-top: 11px;
+}
+input{
+	width: 200px;
+	padding: 16px;
+	border-radius: 16px;
+	height: 8px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	background-color: lightblue;
+}
+button{
+	width: 70px;
+	height: 35px;
+	border-radius: 4px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	background-color: lightblue;
+	margin-top: 2px;
+	margin-inline: 9px;
+}
+::placeholder{
+color: black;
+}
+#city{
+	margin-top: 33px;
+	font-size: -33px;
+}
+#temp{
+	font-size: 40px;
+	margin-top: -29px
+}
+#type
+{
+	font-size: 33px;
+	margin-top: -33px;
+}
+.container
+{
+	width: 500px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 8px;
+	margin-top: 1%;
+	background-color:white;
+}
+img{
+	width: 400px;
+	margin-top: -22px;
+}
